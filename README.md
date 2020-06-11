@@ -22,7 +22,7 @@ Il me reste donc toute la partie "boutique" à proprement parler, plus d'autres 
 - Ensuite, gros morceau, tous ce qui est en rapport avec l'achat du produit : la partie DAO est fait, mais l'implémentation graphique non. Il s'agira donc de pouvoir faire en sorte de consulter son "panier" et de passer une commande. Bien sûr il s'agit d'une simulation, donc on ne pourra pas "payer" la commande et pas non plus la recevoir :0)
 - La partie REGEX : partie que personnellement je préfère faire à la fin car elle ne concerne pas le fonctionnement du logiciel en lui même. Si certaine restriction sont déjà implémenté, il en reste pas mal à faire.
 - Sécurisation du tout : j'ai déjà sécurisé le stockage des mots de passe, mais je vais probablement changer la méthode de cryptage (Cryptage DES) pour une plus sûre avec du "sel". Pour l'instant, la ségrégation des interfaces et tout le toutim me semble ok.
-- Des trucs que j'ai oubliés, des fonctionnalité qui viendront plus tard.
+- Des trucs que j'ai oubliés, des fonctionnalités qui viendront plus tard.
 - Si j'ai le courage d'abattre autant de travail, faire une couche web via REST.
 
 A NOTER :
