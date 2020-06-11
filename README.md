@@ -49,6 +49,7 @@ Vous pouvez réutiliser ce projet ainsi que tout le code que j'ai écrit comme b
 - 3 De commencer par vous créer un compte afin de remplir la base de données et de voir ce que pour l'instant le logiciel propose (AKA, la partie utilisateur pour l'instant).
 - N'oubliez pas qu'il peut y avoir des soucis avec l'accès à la base de données ! Donc vérifiez si l'ip et tout le toutim est correctement renseignées dans le fichiers "dbfile.properties" dans la package "BDD".
 
+Notez que je suis un étudiant. Il y a donc des problèmes de sécurités (surtout pour un projet en cours d'écriture ;)) et sûrement des choses faites de façon peu professionnelles ou qui pourraient choquer certain.e. 
 
 Si vous souhaitez me contacter : chebadad@lilo.org .
 
@@ -70,7 +71,7 @@ So I have the whole "shop" part proper, plus other things:
 - Creation of products (product id, price, photo etc.).
 - Display of products. Display of all products as well as products by category.
 - The main difficulty, therefore remains the display of said products, automating this task in the window which will be used for this purpose. A fairly long job in perspective.
-- Then, big chunk, all that is related to the purchase of the product: the CAD part is done, but the graphic implementation not. It will therefore be a question of being able to consult your "basket" and place an order. Of course it is a simulation, so we will not be able to "pay" for the order and not receive it either: 0)
+- Then, big chunk, all that is related to the purchase of the product: the DAO part is done, but the graphic implementation not. It will therefore be a question of being able to consult your "basket" and place an order. Of course it is a simulation, so we will not be able to "pay" for the order and not receive it either: 0)
 - The REGEX part: part that I personally prefer to do at the end because it does not concern the operation of the software itself. If certain restrictions are already implemented, there is still a lot to do.
 - Securing everything: I have already secured the storage of passwords, but I will probably change the encryption method (DES encryption) to a more secure one with "salt". For now, the segregation of interfaces and everything else seems to me ok.
 - Stuff that I forgot, features that will come later.
@@ -99,5 +100,7 @@ You can reuse this project as well as all the code I wrote as you see fit. It ma
 - 2 To "clean up" this database. Indeed, there must be one or two accounts present, but as you can imagine, the profile photos of these accounts are not present: this could cause some bugs.
 - 3 To start by creating an account in order to fill the database and see what the software currently offers (AKA, the user part for the moment).
 - Do not forget that there may be problems with access to the database! So check if the ip and all toutim is correctly filled in the "dbfile.properties" files in the "BDD" package.
+
+I'm a student. So note that this project is probably not secure, and there is probably some stuff that are done in a bad way.
 
 If you want to contact me : chebadad@lilo.org .
