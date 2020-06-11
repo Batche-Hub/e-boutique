@@ -48,8 +48,9 @@ Vous pouvez réutiliser ce projet ainsi que tout le code que j'ai écrit comme b
 - 2 De "nettoyer" cette base de donnée. En effet, il doit y avoir un ou deux comptes de présents, mais comme vous vous en doutez, les photos de profil de ces comptes ne sont pas présentes : cela pourrait faire quelques bugs.
 - 3 De commencer par vous créer un compte afin de remplir la base de données et de voir ce que pour l'instant le logiciel propose (AKA, la partie utilisateur pour l'instant).
 - N'oubliez pas qu'il peut y avoir des soucis avec l'accès à la base de données ! Donc vérifiez si l'ip et tout le toutim est correctement renseignées dans le fichiers "dbfile.properties" dans la package "BDD".
+- Veuillez également changer la chemin d'accès du fichier dbfile.properties dans SecuriteDataSource.java : vu que c'est mon chemin d'accès, ça ne fonctionnera pas.
 
-Notez que je suis un étudiant. Il y a donc des problèmes de sécurités (surtout pour un projet en cours d'écriture ;)) et sûrement des choses faites de façon peu professionnelles ou qui pourraient choquer certain.e. 
+Notez que je suis un étudiant. Il y a donc des problèmes de sécurité (surtout pour un projet en cours d'écriture ;)) et sûrement des choses faites de façon peu professionnelles ou qui pourraient choquer certain.e. 
 
 Si vous souhaitez me contacter : chebadad@lilo.org .
 
@@ -99,7 +100,8 @@ You can reuse this project as well as all the code I wrote as you see fit. It ma
 - 1 To install the database. If you don't know how to do it, the search engines are there for you.
 - 2 To "clean up" this database. Indeed, there must be one or two accounts present, but as you can imagine, the profile photos of these accounts are not present: this could cause some bugs.
 - 3 To start by creating an account in order to fill the database and see what the software currently offers (AKA, the user part for the moment).
-- Do not forget that there may be problems with access to the database! So check if the ip and all toutim is correctly filled in the "dbfile.properties" files in the "BDD" package.
+- Do not forget that there may be problems with access to the database! So check if the ip and all the stuff are correctly filled in the "dbfile.properties" files in the "BDD" package.
+- Please also change the path of the dbfile.properties file in SecuriteDataSource.java: because this is my path, it will not work.
 
 I'm a student. So note that this project is probably not secure, and there is probably some stuff that are done in a bad way.
 
