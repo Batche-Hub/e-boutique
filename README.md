@@ -91,7 +91,7 @@ In summary, the project breaks down as follows:
 - View: with Swing. If there are (private) methods in the class of the application, it is because they only concern the view as such.
 In other words, the processing there is there to organize the graphic part, not for anything else. If data processing (creation, reading, etc.), it is via abstract classes (action in the View package) and their methods which themselves call on the Controller part. Why abstract classes? For a reason of readability of the code and its security!
 
-- Controller: all the processing related to reading and writing data goes through this layer there (mainly CAD packages).
+- Controller: all the processing related to reading and writing data goes through this layer there (mainly DAO packages).
 
 You can reuse this project as well as all the code I wrote as you see fit. It may be that things (images etc) are subject to copyright. If you want to install the project, I advise you:
 
